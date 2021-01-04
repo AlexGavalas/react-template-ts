@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "../server-dist",
+        "module": "CommonJS",
+        "target": "ES6",
+
+        "lib": ["esnext"],
+
+        "strict": true,
+
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": false,
+
+        "sourceMap": true
+    },
+    "include": ["./**/*"]
+}
