@@ -5,7 +5,7 @@ import { Button } from '../Button';
 export const Home: FC = () => {
     const [count, setCount] = useState(0);
 
-    fetch('/test', {
+    fetch('/user', {
         method: 'POST',
         body: JSON.stringify({ test: 42 }),
         headers: { 'Content-Type': 'application/json' },
